@@ -1,0 +1,227 @@
+@media  screen and (min-width:1024px) {
+/* navigation bar */
+#nav{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 2;
+    box-shadow: 1px 1px 10px yellow;
+}
+
+.nav-item:hover{
+    border-bottom: solid red;
+    background-color: aliceblue;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+/* home page */
+#home{
+    display: flex;
+    justify-content: space-between; 
+  
+}
+.home{
+    width: 500px;
+    height: 500px;
+    margin-top: 80px;   
+
+}
+
+.profile{
+    width: 400px;
+    height: 450px;
+    margin-top: 50px;
+    margin-right: 50px;
+    border: solid aliceblue;
+    box-shadow: 1px 1px 20px rgb(159, 161, 163);
+    
+   
+  
+}
+
+/* About page */
+#about{
+display: flex;
+justify-content: space-between;
+ background-color: rgb(244, 215, 220);
+}
+.abt-photo img{
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    box-shadow: 1px 1px 25px rgb(198, 201, 204);
+    
+}
+.about{
+    margin-top: 40px;
+    margin-left: 50px;
+    padding: 10px;
+    
+   
+}
+.about h1:hover{
+    background-color: aliceblue;
+    transition: 1s;
+}
+.about p:hover{
+     background-color: aliceblue;
+    transition: 1s;
+    
+}
+
+/* contect */
+#contect{
+    margin: 50px;
+    margin-top: 100px;
+    background-color: aqua;
+    height: 80vh;
+    border-radius: 15px;
+    
+    
+}  
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 400px;
+    
+}
+input{
+    box-shadow: 1px 1px 10px rgb(152, 154, 155);
+    border: none;
+    border-bottom: solid black;
+}
+textarea{
+    box-shadow: 1px 1px 10px rgb(152, 154, 155);
+    border: none;
+    border-bottom: solid black;
+}
+
+/* footer */
+.footer{
+    background-color: rgb(238, 222, 222);
+    color: white;
+}
+.footer ul,li,a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+}
+.footer li{
+    padding: 3px;
+    margin: 10px;
+}
+
+
+
+}
+/* Normal page */
+
+/* navigation bar */
+#nav{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 2;
+    box-shadow: 1px 1px 10px yellow;
+}
+
+/* home page */
+
+.home{
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;   
+
+}
+.profile{
+    width: 380px;
+    height: 450px;
+    margin-top: 50px;
+    margin-right: 50px;
+    border: solid aliceblue;
+    box-shadow: 1px 1px 20px rgb(159, 161, 163);
+    
+   
+  
+}
+
+/* about */
+#about{
+    background-color: rgb(219, 166, 176);
+    margin: 20px;
+}
+.abt-photo img{
+    width: 380px;
+    height: 400px;
+    margin-top: 50px;
+    box-shadow: 1px 1px 25px rgb(198, 201, 204);
+    
+}
+.about{
+    margin-top: 40px;
+    margin-left: 50px;
+    padding: 10px;
+    margin-top: 60px;
+   
+}
+.about h1:hover{
+    background-color: aliceblue;
+    transition: 1s;
+}
+.about p:hover{
+     background-color: aliceblue;
+    transition: 1s;
+    
+}
+/* contect */
+#contect{
+    margin: 50px;
+    margin-top: 100px;
+    background-color: aqua;
+    height: 80vh;
+    border-radius: 15px;
+    
+    
+}  
+form{
+    display: flex;
+    flex-direction: column;
+   
+    margin-top: 50px;
+    width: 400px;
+    
+}
+input{
+    box-shadow: 1px 1px 10px rgb(152, 154, 155);
+    border: none;
+    border-bottom: solid black;
+}
+textarea{
+    box-shadow: 1px 1px 10px rgb(152, 154, 155);
+    border: none;
+    border-bottom: solid black;
+}
+/* footer */
+.footer{
+    background-color: rgb(238, 222, 222);
+    color: white;
+}
+.footer ul,li,a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+}
+.footer li{
+    padding: 3px;
+    margin: 10px;
+}
